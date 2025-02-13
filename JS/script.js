@@ -13,4 +13,10 @@ $(document).ready(function(){
             filter: filterVal
         })
     });
-});
+
+    // INSTRUCCIONS:
+
+    // Boton: "Todos"
+    
+    // Botones de orden: por número y orden alfabético
+    });
