@@ -11,10 +11,13 @@
     
     <main>
         <section class="btns-cont">
-            <button data-filter=".type-fire">Fuego</button>
-            <button data-filter=".type-water">Agua</button>
-            <button data-filter=".type-grass">Planta</button>
-            <button data-filter=".type-grass">Planta</button>
+            <button class="filter" data-filter="*">Todos</button>
+            <button class="filter" data-filter=".type-fire">Fuego</button>
+            <button class="filter" data-filter=".type-water">Agua</button>
+            <button class="filter" data-filter=".type-grass">Planta</button>
+            <button class="filter" data-filter=".type-electric">Eléctrico</button>
+            <button class="sort" data-sortby="number">Ordenar por número</button>
+            <button class="sort" data-sortby="name">Ordenar A-Z</button>
 
         </section>
 
@@ -22,23 +25,30 @@
 
             <div class="card type-grass">
                     <img src="https://raw.githubusercontent.com/pokeAPI/sprites/master/sprites/pokemon/1.png" alt="">
-                    <p class="number"></p>
+                    <p class="number">1</p>
                     <h2 class="name">Bulbasaur</h2>
                     <p>Tipo: Planta</p>
             </div>
 
             <div class="card type-fire">
                 <img src="https://raw.githubusercontent.com/pokeAPI/sprites/master/sprites/pokemon/4.png" alt="">
-                <p class="number"></p>
+                <p class="number">4</p>
                 <h2 class="name">Charmander</h2>
                 <p>Tipo: Fuego</p>
             </div>
 
         <div class="card type-water">
             <img src="https://raw.githubusercontent.com/pokeAPI/sprites/master/sprites/pokemon/7.png" alt="">
-            <p class="number"></p>
+            <p class="number">7</p>
             <h2 class="name">Squirtle</h2>
             <p>Tipo: Agua</p>
+        </div>
+
+        <div class="card type-electric">
+            <img src="https://raw.githubusercontent.com/pokeAPI/sprites/master/sprites/pokemon/25.png" alt="">
+            <p class="number">25</p>
+            <h2 class="name">Pikachu</h2>
+            <p>Tipo: Eléctrico</p>
         </div>
             
         </section>
